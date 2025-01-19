@@ -17,6 +17,9 @@
     git add -A
     모든 변경 및 추가 사항 스테이지 올리기
 
+    git add .
+    로컬 저장소 현 위치에 있는 모든 파일 변경 및 추가 사항 스테이지 올리기
+
 ## 3. Staging Area > Repository '커밋하기'
     git config –global user.email “메일 주소”
     git config –global user.name “유저 네임”
