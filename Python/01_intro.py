@@ -15,7 +15,6 @@ reply_circumference = '원의 둘레 : '
 reply_extent = '원의 넓이 : '
 
 
-
 print(f'{reply_ratio} {ratio}')
 print(f'{reply_redius} {redius}')
 print(f'{reply_circumference} {circumference}')
