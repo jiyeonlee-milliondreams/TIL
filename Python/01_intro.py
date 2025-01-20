@@ -21,7 +21,6 @@ print(f'{reply_redius} {redius}')
 print(f'{reply_circumference} {circumference}')
 print(f'{reply_extent} {extent}')
 
-
 # python_ws_1_5
 
 a = 3*2
