@@ -9,7 +9,7 @@ def backtrack(a, k, n):  # a 주어진 배열, k 결정할 원소, n 원소 개�
             a[k] = c[i]
             backtrack(a, k + 1, n)
             
-def construct_candidates(a, k, n, c):   # 후보 추천천
+def construct_candidates(a, k, n, c):   # 후보 추천
     c[0] = True                             # 원소의 포함 여부 
     c[1] = False
     return 2
