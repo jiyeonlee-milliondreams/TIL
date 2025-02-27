@@ -1,0 +1,10 @@
+$ git log --oneline
+be192e9 (HEAD -> master) Revert "second"
+d7c8501 third
+91cbd74 second
+f7b3a3d first
+
+$ git revert be192e9
+[master d32cbbf] Reapply "second"
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 2.txt

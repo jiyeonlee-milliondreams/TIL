@@ -1,0 +1,14 @@
+$ git st
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        untracked.txt
+
+$ git log --oneline
+be192e9 (HEAD -> master) Revert "second"
+d7c8501 third
+91cbd74 second
+f7b3a3d first
+
+revert는 reset이랑 다르게 git log --oneline하면 
+삭제된 commit도 나타남.
